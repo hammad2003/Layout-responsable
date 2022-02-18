@@ -1,11 +1,17 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
-  border: thin solid red;
+  border: thin solid black;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
 }
 
 #header {
-  background-color: #42cdc6;
+  background-color: #ff8000;
 }
 
 #menu {
@@ -31,7 +37,7 @@
 
 #sidebar {
   padding: 1em;
-  background-color: #f8f8f8;
+  background-color: lightgrey;
 }
 
 .sidebar-title {
@@ -42,9 +48,28 @@
 #content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: lightgrey;
 }
 
 .card-image img {
   width: 100%;
   max-width: 100%;
+}
+
+#banner{
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#footer{
+  background-color: #ff8000;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#real-footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
 }
