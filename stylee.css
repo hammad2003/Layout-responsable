@@ -9,7 +9,7 @@ body {
 
 #header {
   padding: 2em;
-  background-color: #42cdc6;
+  background-color: #ff8000;
   color: black;
 }
 
@@ -121,7 +121,7 @@ body {
 
 #footer {
   background-color: #32373a;
-  color: gray;
+  color: lightgrey;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
 }
@@ -134,6 +134,9 @@ body {
   font-size: 0.8em;
 }
 
+.footer-columns{
+  margin-bottom: 2em;
+}
 
 .footer-columns {
   display: grid;
